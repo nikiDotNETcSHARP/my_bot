@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
@@ -6,9 +7,12 @@ namespace my_bot
 {
     class Program
     {
+        private static string token { get; set; } = "6271023416:AAGl8itNsfQ8KMpJ6uXozQ_X6OSJEb_wfv0";
+        private static TelegramBotClient client;
+
         static void Main(string[] args)
         {
-            var client = new TelegramBotClient("6271023416:AAGl8itNsfQ8KMpJ6uXozQ_X6OSJEb_wfv0");
+            client = new TelegramBotClient(token);
             client.StartReceiving(Update, Error);
             Console.ReadLine();
         }

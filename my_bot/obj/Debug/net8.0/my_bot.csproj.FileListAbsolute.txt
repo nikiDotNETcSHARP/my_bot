@@ -16,3 +16,4 @@ C:\Users\Zver\source\repos\my_bot\my_bot\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Zver\source\repos\my_bot\my_bot\bin\Debug\net8.0\Telegram.Bot.dll
 C:\Users\Zver\source\repos\my_bot\my_bot\obj\Debug\net8.0\my_bot.csproj.AssemblyReference.cache
 C:\Users\Zver\source\repos\my_bot\my_bot\obj\Debug\net8.0\my_bot.csproj.Up2Date
+C:\Users\Zver\source\repos\my_bot\my_bot\obj\Debug\net8.0\my_bot.sourcelink.json
